@@ -80,3 +80,11 @@ form button:hover {
 .trash-btn {
     background: rgb(204, 73, 73);
 }
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash , .fa-check {
+    pointer-events: none;
+}
