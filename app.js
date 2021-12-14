@@ -23,6 +23,9 @@ function addTodo(event){
     // append li as child of div
     todoDiv.appendChild(newTodo);
 
+    // add todo to local storage 
+    saveLocalTodos(todoInput.value);
+
     // check mark button
     const completed = document.createElement('button');
     completed.innerHTML = '<i class ="fas fa-check"></i>';
