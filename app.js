@@ -28,7 +28,7 @@ function addTodo(event){
      // delete mark button
      const trash = document.createElement('button');
      trash.innerHTML = '<i class ="fas fa-trash"></i>';
-     trash.classList.add('complete-btn');
+     trash.classList.add('trash-btn');
      todoDiv.appendChild(trash);
     //  append to list
     todoList.appendChild(todoDiv);
